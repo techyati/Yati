@@ -1,25 +1,45 @@
 body{
-    background-color:#66CDAA; font-family: cursive;
+background-color: #778899;
+}
+img{
+text-align: center;
+margin: 0 auto ;
+width: 550px
+}
+.rotate0 {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
 
-  }
-  h1{
-    font-family:Georgia;; color:#000033
-  }
-  p{
-    font-size;20px; color:black; font-style:italics; text-align: left;
-    }
-    img{
-      width: 460px; border=5; 
-    }
-    .left{
-      width: 50%;
-      float: left;
+}
+p{
+font-size: 20; font-family: cursive; text-align: left;	
+}
+.left{
+	float: left;
+	width: 50%;
+}
+.right{
+float: right;
+width: 50%;
+text-align: justify;	
+}
+.Profilepic{
+float: right;
+margin: 20px;
+}
+.container{
+margin: 0 auto;
+padding: 0 98px;	
+}
 
-    }
-    .rotateimg90 {
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+h1{
+	margin-left: 35%;
 }
